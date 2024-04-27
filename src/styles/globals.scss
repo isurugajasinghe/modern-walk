@@ -1,0 +1,44 @@
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  padding-bottom: 40px
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/*----------- home page -----------*/
+@import "./home-page.scss";
+
+/*----------- category page -----------*/
+@import "./category-page.scss";
+
+/*----------- header component -----------*/
+@import "./header.scss";
+
+/*----------- category card component -----------*/
+@import "./category-card.scss";
+
+/*----------- product card component -----------*/
+@import "./product-card.scss";
+
+/*----------- title text component -----------*/
+@import "./title-text.scss";
+
+/*----------- loader component -----------*/
+@import "./loader.scss";

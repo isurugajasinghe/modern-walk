@@ -1,0 +1,13 @@
+#header {
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 4px solid #D9D9D9;
+        height: 100px;
+    }
+    .title-text {
+        font-size: 60px;
+        font-weight: 600;
+    }
+}

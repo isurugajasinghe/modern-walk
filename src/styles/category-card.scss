@@ -1,0 +1,25 @@
+#category-card {
+  flex: 1;
+  cursor: pointer;
+
+  .container {
+    height: 188px;
+    border-radius: 12px;
+    background-color: #2bd9af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .title-text {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .woment-container {
+    background-color: #FF5E84;
+  }
+}

@@ -1,0 +1,11 @@
+#category {
+  background-color: transparent;
+  padding-inline: 40px;
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 40px;
+  }
+}

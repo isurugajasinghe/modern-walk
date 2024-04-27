@@ -1,0 +1,24 @@
+#home {
+  background-color: transparent;
+  padding-inline: 40px;
+
+  .card-scroll-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .card-scroll {
+    display: flex;
+  }
+
+  .category-container {
+    width: 100%;
+    display: flex;
+  }
+
+  .width-spacer {
+    width: 40px;
+  }
+}
